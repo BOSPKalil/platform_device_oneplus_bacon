@@ -118,9 +118,9 @@ PRODUCT_PACKAGES += \
     lights.msm8974
 
 # Launcher
-PRODUCT_PACKAGES += \
-    PixelLauncher \
-    WallpaperPickerGoogle
+#PRODUCT_PACKAGES += \
+#    PixelLauncher \
+#    WallpaperPickerGoogle
 
 # Media profile
 PRODUCT_COPY_FILES += \
