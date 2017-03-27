@@ -144,6 +144,13 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+#Magisk
+PRODUCT_COPY_FILES += \
+   device/oneplus/bacon/Magisk/Magisk.zip:system/addon.d/Magisk.zip 
+PRODUCT_PACKAGES += \
+   MagiskManager
+WITH_MAGISK := true
+
 # Misc dependency packages
 PRODUCT_PACKAGES += \
     ebtables \
